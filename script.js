@@ -12,7 +12,7 @@ for (let feux_rouges = 30; feux_rouges >= 0; feux_rouges--) {
         changement_taxi ++;
         George --;
         if (George == 0) {
-            alert(`Vous avez perdu George est mort il a changer ${changement_taxi} fois de taxi, il lui rester ${feux_rouges} feux rouges`);
+            alert(`Explosion !\nVous avez perdu George est mort il a changer ${changement_taxi} fois de taxi, il lui rester ${feux_rouges} feux rouges`);
             break;
         }
     }
